@@ -215,7 +215,10 @@ body {
     background: url("../images/bg-mobile.png");
     background-position: 0px 0px;
     background-size: 100% 100%;
-    padding: 0 2em;
+    padding: 10em 2em 0 2em;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .main-container .main-container-background .main-container-content {
     -ms-grid-columns: 1fr;

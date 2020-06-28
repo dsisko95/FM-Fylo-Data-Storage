@@ -190,7 +190,8 @@ body {
             background: url("../images/bg-mobile.png");
             background-position: 0px 0px;
             background-size: 100% 100%;
-            padding: 0 2em;
+            padding: 10em 2em 0 2em;
+            align-items: flex-start;
 
             .main-container-content {
                 grid-template-columns: 1fr;
